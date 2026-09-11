@@ -47,14 +47,16 @@ git clone https://github.com/jerry53779/useless_project_gmeet_show_killer.git
 For Software:
 
 # Screenshots
-![Helium HUD Overlay](https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd)
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/af08ffb3-e98a-4877-90c9-f15570751334" />
+
 *Floating Glassmorphic HUD overlay active during a Google Meet call showing real-time talk streak timer, progress bar, and pitch status*
 
-![Mandatory Auto-Mute & Chipmunk Pitch Escalation](https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd)
+<img width="1912" height="897" alt="image" src="https://github.com/user-attachments/assets/2d5d77f6-d0bb-41d1-97f2-39f181c0e8ed" />
+
 *Real-time voice activity monitoring with automated pitch modulation and mandatory mic auto-mute*
 
-![Interactive Controls](https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd)
-*Interactive controls for toggling Helium mode ON/OFF, resetting streak counter, and 10s test mode*
+
 
 # Diagrams
 ```
@@ -77,11 +79,10 @@ For Software:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Demonstrating real-time voice monitoring, chipmunk pitch shifting, and mandatory auto-mute in Google Meet*
 
-# Additional Demos
-- 10-second test mode trigger via HUD button or console `window.__HELIUM_DEBUG_MODE__ = true`
+[*Demonstrating real-time voice monitoring, chipmunk pitch shifting, and mandatory auto-mute in Google Meet*](https://drive.google.com/file/d/1JmF_jU1FgME6r2lIIhyopsftrRfriwzy/view?usp=drive_link)
+
+
 
 ## Team Contributions
 - Jerry Bernard: Complete architectural design, Web Audio DSP pipeline, MAIN execution world interception, VAD logic, mandatory auto-mute DOM enforcement, and glassmorphic HUD UI development.
