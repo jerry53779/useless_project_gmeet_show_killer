@@ -3,7 +3,7 @@
 # Helium HUD for Google Meet 🎯
 
 ## Basic Details
-### Team Name: Show Killers
+### Team Name: Jerry's Team
 
 ### Team Members
 - Team Lead: Jerry Bernard - Albertian Institute of Science and Technology
