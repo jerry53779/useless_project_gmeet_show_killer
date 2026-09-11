@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Helium HUD for Google Meet",
+  "version": "1.0.0",
+  "description": "Monitors talk streaks in Google Meet, automatically mutes mic when streak limit is reached, and features toggleable helium pitch modulation.",
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://meet.google.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://meet.google.com/*"],
+      "js": ["inject.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    },
+    {
+      "matches": ["https://meet.google.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
